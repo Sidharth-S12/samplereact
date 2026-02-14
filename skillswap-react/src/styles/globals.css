@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.glow-btn {
+  box-shadow: 0 0 30px rgba(0, 96, 100, 0.5);
+}
+
+.glow-circle {
+  filter: blur(70px);
+  opacity: 0.5;
+}
